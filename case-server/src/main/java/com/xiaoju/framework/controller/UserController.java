@@ -28,10 +28,10 @@ public class UserController {
      * @param response
      * @return
      */
-    @PostMapping("/register")
-    public Response<?> register(@RequestBody UserRegisterReq req, HttpServletRequest request, HttpServletResponse response) {
-        return Response.success(userService.register(req,request,response));
-    }
+//    @PostMapping("/register")
+//    public Response<?> register(@RequestBody UserRegisterReq req, HttpServletRequest request, HttpServletResponse response) {
+//        return Response.success(userService.register(req,request,response));
+//    }
 
     /**
      * 用户登录
